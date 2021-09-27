@@ -136,7 +136,7 @@ function getNextPalindromeDate(date) {
 }
 
 function clickHandler() {
-    var bdayStr = date-input.value;
+    var bdayStr = date_input.value;
 
     if (bdayStr !== '') {
         var listOfDate = bdayStr.split('-');
